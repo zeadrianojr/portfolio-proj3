@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Adriano - Programação</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+     <!--header com título do site-->
+    <header class="sticky-top barra-superior z-100" >
+        <div class="container d-flex  padding-header">
+            <div class="container d-flex ajuste-menu-superior ">
+                <a href="#home" class="nav-link d-flex  align-items-center p-0">
+                    <i class="bi bi-code-square pe-1"></i>
+                    <h1 class="m-0" >
+                        Portfólio
+                    </h1>
+                </a>
+                 <!--navegação tablet e pc-->
+                <nav class="menu-tablet-pc navbar p-0">
+                    <div class="container d-inline p-0">
+                        <ul class="nav nav-pills d-flex justify-content-around p-0 mt-1">
+                            <li class="nav-item padding-navs">
+                                <a href="#home" class="nav-link d-flex  justify-content-center align-items-baseline p-0">
+                                    <i class="bi bi-house pe-1"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-item padding-navs ps-3">
+                                <a href="#about-me" class="nav-link d-flex  justify-content-center align-items-baseline p-0">
+                                    <i class="bi bi-person pe-1"></i>
+                                    <span>Sobre mim</span>
+                                </a>
+                            </li>
+                            <li class="nav-item padding-navs ps-3">
+                                <a href="#projec" class="nav-link d-flex  justify-content-center align-items-baseline p-0">
+                                    <i class="bi bi-terminal pe-1"></i>
+                                    <span>Projetos</span>
+                                </a>
+                            </li>
+                            <li class="nav-item padding-navs ps-3">
+                                <a href="#contact" class="nav-link d-flex  justify-content-center align-items-baseline p-0">
+                                    <i class="bi bi-envelope-at pe-1"></i>
+                                    <span>Contato</span>
+                                </a>
+                            </li>
+                            <li class="nav-item padding-navs ps-3">
+                                <a href="https://medium.com" target="_blank" class="nav-link d-flex  justify-content-center align-items-baseline p-0">
+                                    <i class="bi bi-chat-square-quote pe-1"></i>
+                                    <span>Blog</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Saudação, nome, imagem, link para curriculo-->
+        <section id="home" class="centralizar">
+            <div class="container pb-5">
+                <div class="row d-flex mt-5">
+                    <div class="col-sm-12 col-lg-7 d-flex flex-column align-items-center ">
+                        <img class="prof-pic" src="./images/Developer activity-bro.svg" alt="">
+                    </div>
+                    <div class="col-sm-12 col-lg-5 d-flex flex-column align-items-center justify-content-center ">
+                        <h2 class="pt-2">
+                            OLÁ, EU SOU <br>José Adriano Jr.
+                        </h2>
+                        <h3 class="pt-2">
+                            Desenvolvedor
+                        </h3>
+                        <button  class="btn w-50 mt-2">
+                            Download CV
+                        </button>
+                        <button  class=" btn  w-50 mt-2">
+                            <a class="link-email" href="mailto:joseadrianodesouzajunior@gmail.com">Entre em contato</a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--Resumo e stacks-->
+        <section id="about-me" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row d-flex justify-content-center ">
+                        <h3 class="titulo-secao">Sobre mim</h3>
+                        <div class="col-sm-12 col-lg-6">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis eaque tempore consequatur tempora ullam recusandae fuga at repellat voluptas reiciendis perspiciatis veniam asperiores, reprehenderit obcaecati accusantium ipsam officia nobis aliquam?</p>                   
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center ">
+                        <h4 class="titulo-secao mb-3">Tecnologias</h4>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img class="img-stack" src="./images/html.png" class="h-50" alt="HTML">
+                                <h4>HTML</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img  class="img-stack" src="./images/css.png" alt="CSS">
+                                <h4>CSS</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img  class="img-stack" src="./images/js.png" alt="JAVASCRIPT">
+                                <h4>JAVASCRIPT</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 ">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img class="img-stack" src="./images/jquery.png" alt="JQUERY">
+                                <h4>JQUERY</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 ">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img  class="img-stack" src="./images/bootstrap.png" alt="BOOTSTRAP">
+                                <h4>BOOTSTRAP</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 ">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img  class="img-stack" src="./images/Python.png" alt="PYTHON">
+                                <h4>PYTHON</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section >
+        <!--4 projetos em destaque e link para repositórios-->
+        <section id="projec" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row ">
+                    <h3 class="titulo-secao">Projetos</h3>
+                </div>
+                <div class="row">
+                    <div class="proj-card col-lg-4 col-md-6 col-sm-12">
+                        <article class="mt-2 card text-bg-dark text-center">
+                            <img class="card-img-top" src="https://via.placeholder.com/360X180" >
+                            <div class="card-body">
+                              <h5 class="card-title">Título do Projeto</h5>
+                              <p class="card-text">Descrição: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus eveniet </p>
+                              <button  class=" btn  w-50 mt-2">
+                                    <a class="link-email" href="#"><i class="bi bi-search"></i> Visualizar</a>
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class=" proj-card  col-lg-4 col-md-6 col-sm-12">
+                        <article class="mt-2 card text-bg-dark text-center">
+                            <img class="card-img-top" src="https://via.placeholder.com/360X180" >
+                            <div class="card-body">
+                              <h5 class="card-title">Título do Projeto</h5>
+                              <p class="card-text">Descrição: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus eveniet </p>
+                              <button  class=" btn  w-50 mt-2">
+                                    <a class="link-email" href="#"><i class="bi bi-search"></i> Visualizar</a>
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="proj-card col-lg-4 col-md-6 col-sm-12">
+                        <article class="mt-2 card text-bg-dark text-center">
+                            <img class="card-img-top" src="https://via.placeholder.com/360X180" >
+                            <div class="card-body">
+                              <h5 class="card-title">Título do Projeto</h5>
+                              <p class="card-text">Descrição: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus eveniet </p>
+                              <button  class=" btn  w-50 mt-2">
+                                    <a class="link-email" href="#"><i class="bi bi-search"></i> Visualizar</a>
+                               </button>
+                            </div>
+                        </article>
+                    </div>
+                    
+                </div>
+                <div class="row d-flex mt-5 justify-content-center">
+                    <button  class=" btn  w-50 mt-2">
+                        <a class="link-email" href="https://github.com" target="_blank"><i class="bi bi-github"></i> Visite meu Github </a>
+                    </button>
+                </div>
+                
+            </div>
+        </section >
+        <!-- email, linkedin, github, youtube-->
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row ">
+                    <h3 class="titulo-secao">Contatos</h3>
+                    
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-12 col-lg-6">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis eaque tempore consequatur tempora ullam recusandae fuga at repellat voluptas reiciendis perspiciatis veniam asperiores, reprehenderit obcaecati accusantium ipsam officia nobis aliquam?</p>                   
+                    </div>
+                </div>
+
+                
+                <div class="row d-flex mt-5 justify-content-center flex-column align-items-center">
+                    <button  class=" btn  w-50 mt-2">
+                        <a class="link-email" href="mailto:joseadrianodesouzajunior@gmail.com"><i class="bi bi-envelope-check"></i> E-mail</a>
+                    </button>
+                    <button  class=" btn  w-50 mt-2">
+                        <a class="link-email" href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i> Linkedin</a>
+                    </button>
+                    <button  class=" btn  w-50 mt-2">
+                        <a class="link-email" href="https://whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+                    </button>
+                    
+                </div>
+                
+
+            </div>
+        </section >
+
+    </main>
+
+    <footer class="d-flex justify-content-center align-items-center" >
+        <span>Desenvolvido com <i class="bi bi-suit-heart-fill"></i> por José Adriano Junior</span>
+    </footer>
+        <!--navegação mobile-->
+    <nav class="menu-mobile navbar sticky-bottom p-0 z-100">
+        <div class="container d-inline p-0">
+            <ul class="nav nav-pills d-flex justify-content-around p-0 mt-1">
+                <li class="nav-item padding-navs">
+                    <a href="#home" class="nav-link d-flex flex-column align-items-center p-0">
+                        <i class="bi bi-house"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item padding-navs">
+                    <a href="#about-me" class="nav-link d-flex flex-column align-items-center p-0">
+                        <i class="bi bi-person"></i>
+                        <span>Sobre mim</span>
+                    </a>
+                </li>
+                <li class="nav-item padding-navs">
+                    <a href="#projec" class="nav-link d-flex flex-column align-items-center p-0">
+                        <i class="bi bi-terminal"></i>
+                        <span>Projetos</span>
+                    </a>
+                </li>
+                <li class="nav-item padding-navs">
+                    <a href="#contact" class="nav-link d-flex flex-column align-items-center p-0">
+                        <i class="bi bi-envelope-at"></i>
+                        <span>Contato</span>
+                    </a>
+                </li>
+                <li class="nav-item padding-navs">
+                    <a href="https://medium.com" target="_blank" class="nav-link d-flex flex-column align-items-center p-0">
+                        <i class="bi bi-chat-square-quote"></i>
+                        <span>Blog</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>

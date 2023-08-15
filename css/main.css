@@ -1,0 +1,195 @@
+body{
+    background-color: #312d2d;
+    color: #ffffff;
+    
+    
+}
+
+
+section#home{
+    height: 100vh;
+    
+    
+}
+
+#about-me, #contact{
+    background-color: #474242; 
+    height: fit-content;
+}
+
+#projec{
+    background-color: #312d2d;
+    height: fit-content;
+    
+}
+
+i{
+    font-size: 1.5em;
+}
+
+h1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}   
+
+h2{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+h3,
+h4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #b4bd97;
+}
+
+.titulo-secao{
+    padding-top: 40px;
+    color: #FFC017;
+}
+
+h1>i{
+    font-size: 0.8em;
+}
+
+span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    color: #ffffff;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.proj-card{
+    margin-top: 1em;
+}
+.prof-pic{
+    border-radius: 10px;
+}
+
+a.nav-link{
+    color:#ffffff;
+}
+
+a.nav-link:focus,
+a.nav-link:hover{
+    color:#FFC017;
+}
+.padding-header{
+    padding: 8px 8px 12px 8px;
+}
+
+
+.barra-superior{
+    background: #2f1c1c;
+    border-bottom-left-radius: 0.8em;
+    border-bottom-right-radius: 0.8em;
+}
+button{
+    margin-bottom: 1em;
+}
+button.btn{
+    background-color:#FFC017;
+    color: #2f1c1c;
+    border: none;
+}
+.link-email{
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-email:hover{
+    color: #FFC017;
+}
+
+.btn:hover{
+    background-color:#2f1c1c;
+    color: #FFC017;
+    border: none;
+    
+    
+}
+.btn:focus{
+    background-color:#2f1c1c;
+    color: #FFC017;
+    border: none;
+    
+}
+.img-stack{
+    width: 50%;
+    padding-top: 1.5em;
+
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer{
+    height: 3em;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 768px)  {
+    .ajuste-menu-superior{
+        justify-content: center;
+    }
+    .menu-tablet-pc{
+        display: none;
+    }
+
+    .padding-navs{
+        padding: 8px 8px 12px;
+    }
+
+
+    nav.navbar{
+        background: #2f1c1c;
+
+        border-top-left-radius: 0.8em;
+        border-top-right-radius: 0.8em;
+    }
+    .col-lg-5{
+        margin-top: 2em;
+    }
+    section{
+        height: 100vh;
+    }
+
+    
+  
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width:990px) {
+    .menu-mobile{
+        display: none;
+    }
+    .ajuste-menu-superior{
+        justify-content: space-between;
+    }
+
+
+
+}
+
+@media screen and (min-width:991px) {
+    .menu-mobile{
+        display: none;
+    }
+    .ajuste-menu-superior{
+        justify-content: space-between;
+    }
+
+
+
+}
